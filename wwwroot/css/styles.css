@@ -1,0 +1,50 @@
+:root {
+    --orange: #FF3600;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.border-orange {
+    border-color: var(--orange);
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+.navbar-bottom {
+    font-size: 12px;
+}
+
+.navbar-brand {
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    text-transform: lowercase;
+    font-size: 24px;
+    color: var(--orange);
+}
+
+.navbar-brand:hover {
+    color: var(--orange);
+}
+
+.nav-link {
+    color: white;
+}
+
+.input-group .btn {
+    border-left: 0;
+}
+
+.input-group .form-control {
+    border-right: 0;
+}
+
+.navbar-toggler {
+    border: 0;
+}
