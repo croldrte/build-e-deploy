@@ -67,7 +67,7 @@ body {
     background-color: var(--orange);
 }
 
-p b {
+#benefits p b {
     color: var(--orange);
 }
 
@@ -107,4 +107,22 @@ p b {
 
 h2 {
     letter-spacing: -0.25px;
+}
+
+.product p {
+    margin: 0;    
+    font-size: 12px;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+.product-name {
+    font-weight: 600;
+}
+
+.product b {
+    font-size: 150%;
+    color: var(--orange);
 }
