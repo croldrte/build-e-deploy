@@ -44,7 +44,7 @@
                         <i class="bi bi-heart text-orange" style="font-size: 1.5rem;"></i>
                     </a>
                     <a href="#" class="ms-2">
-                        <i class="bi bi-bag text-orange" style="font-size: 1.5rem;"></i>
+                        <i class="bi bi-cart text-orange" style="font-size: 1.5rem;"></i>
                     </a>
                 </div>
                 <!-- Barra de Pesquisa -->
@@ -60,13 +60,13 @@
             </div>
         </nav>
         <!-- Barra de Menu - Baixo -->
-        <nav class="navbar navbar-expand-md navbar-bottom bg-secondary py-1">
+        <nav class="navbar navbar-expand-md navbar-bottom bg-dark-blue py-1">
             <div class="container">
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav d-flex justify-content-between w-100">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="produtos/para-sua-construcao.html" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">Para sua construção</a>
+                            <a class="nav-link dropdown-toggle" href="produtos/para-sua-construcao.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Para sua construção</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Cimentos</a></li>
                                 <li><a class="dropdown-item" href="#">Areias</a></li>
@@ -80,11 +80,12 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="produtos/materiais-hidraulicos.html">Materiais hidráulicos</a>
+                            <a class="nav-link mx-2" href="produtos/materiais-hidraulicos.html">Materiais
+                                hidráulicos</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle mx-2" href="produtos/materiais-eletricos.html" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">Materiais elétricos</a>
+                            <a class="nav-link dropdown-toggle mx-2" href="produtos/materiais-eletricos.html"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Materiais elétricos</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Fios</a></li>
                                 <li><a class="dropdown-item" href="#">Cabos</a></li>
@@ -111,7 +112,8 @@
                             <a class="nav-link mx-2" href="produtos/ferramentas.html">Ferramentas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="produtos/pisos-e-revestimentos.html">Pisos e revestimentos</a>
+                            <a class="nav-link mx-2" href="produtos/pisos-e-revestimentos.html">Pisos e
+                                revestimentos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link mx-2" href="produtos/metais.html">Metais</a>
@@ -129,13 +131,14 @@
     </header>
 
     <main>
-        <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
+        <!-- Hero -->
+        <div id="carousel-hero" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active"
+                <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="1"
+                <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="2"
+                <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
@@ -150,6 +153,157 @@
                 </div>
             </div>
         </div>
+
+        <div class="container">
+
+            <!-- Benefícios -->
+            <section class="row row-cols-1 row-cols-lg-4 g-4 d-flex justify-content-center my-5" id="benefits">
+                <!-- Entrega -->
+                <div class="col">
+                    <div class="d-inline-block">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                            stroke="var(--orange)" height="50px">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                        </svg>
+                    </div>
+                    <div class="d-inline-block">
+                        <p>Entregamos em<br /><b>todo o Brasil</b></p>
+                    </div>
+                </div>
+                <!-- Parcelamento -->
+                <div class="col">
+                    <div class="d-inline-block">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                            stroke="var(--orange)" height="50px">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                        </svg>
+                    </div>
+                    <div class="d-inline-block">
+                        <p class="mb-0">Parcelamos em<br /><b>até 10x sem juros</b></p>
+                    </div>
+                </div>
+                <!-- Retirada -->
+                <div class="col">
+                    <div class="d-inline-block">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                            stroke="var(--orange)" height="50px">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z" />
+                        </svg>
+                    </div>
+                    <div class="d-inline-block">
+                        <p>Compre online e<br /><b>retire na loja</b></p>
+                    </div>
+                </div>
+                <!-- Desconto -->
+                <div class="col">
+                    <div class="d-inline-block">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                            stroke="var(--orange)" height="50px">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m9 14.25 6-6m4.5-3.493V21.75l-3.75-1.5-3.75 1.5-3.75-1.5-3.75 1.5V4.757c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0c1.1.128 1.907 1.077 1.907 2.185ZM9.75 9h.008v.008H9.75V9Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm4.125 4.5h.008v.008h-.008V13.5Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                        </svg>
+                    </div>
+                    <div class="d-inline-block">
+                        <p>5% de desconto no<br /><b>boleto ou Pix</b></p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="departments" class="my-5">
+                <h2 class="mb-3">Compre por departamento</h2>
+                <div class="carousel-departments-container">
+                    <div class="carousel-departments">
+                        <figure class="figure">
+                            <img src="img/cimentos.png" class="figure-img" alt="Cimentos">
+                            <figcaption class="figure-caption text-center">Cimentos</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/areias.png" class="figure-img" alt="Areias">
+                            <figcaption class="figure-caption text-center">Areias</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/tijolos.png" class="figure-img" alt="Tijolos">
+                            <figcaption class="figure-caption text-center">Tijolos</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/telhas.png" class="figure-img" alt="Telhas">
+                            <figcaption class="figure-caption text-center">Telhas</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/argamassas.png" class="figure-img" alt="Argamassas">
+                            <figcaption class="figure-caption text-center">Argamassas</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/materiais-hidraulicos.png" class="figure-img"
+                                alt="Materiais hidráulicos">
+                            <figcaption class="figure-caption text-center">Materiais Hidráulicos</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/fios.png" class="figure-img" alt="Fios">
+                            <figcaption class="figure-caption text-center">Fios</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/cabos.png" class="figure-img" alt="Cabos">
+                            <figcaption class="figure-caption text-center">Cabos</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/interruptores.png" class="figure-img" alt="Interruptores">
+                            <figcaption class="figure-caption text-center">Interruptores</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/tomadas.png" class="figure-img" alt="Tomadas">
+                            <figcaption class="figure-caption text-center">Tomadas</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/tubos.png" class="figure-img" alt="Tubos">
+                            <figcaption class="figure-caption text-center">Tubos</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/eletrodutos.png" class="figure-img" alt="Eletrodutos">
+                            <figcaption class="figure-caption text-center">Eletrodutos</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/tintas.png" class="figure-img" alt="Tintas">
+                            <figcaption class="figure-caption text-center">Tintas</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/vernizes.png" class="figure-img" alt="Vernizes">
+                            <figcaption class="figure-caption text-center">Vernizes</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/esmaltes.png" class="figure-img" alt="Esmaltes">
+                            <figcaption class="figure-caption text-center">Esmaltes</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/ferramentas.png" class="figure-img" alt="Ferramentas">
+                            <figcaption class="figure-caption text-center">Ferramentas</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/pisos-e-revestimentos.png" class="figure-img"
+                                alt="Pisos e revestimentos">
+                            <figcaption class="figure-caption text-center">Pisos e Revestimentos</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/metais.png" class="figure-img" alt="Metais">
+                            <figcaption class="figure-caption text-center">Metais</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/portas.png" class="figure-img" alt="Portas">
+                            <figcaption class="figure-caption text-center">Portas</figcaption>
+                        </figure>
+                        <figure class="figure">
+                            <img src="img/janelas.png" class="figure-img" alt="Janelas">
+                            <figcaption class="figure-caption text-center">Janelas</figcaption>
+                        </figure>
+                    </div>
+                </div>  
+            </section>
+
+        </div>
+
     </main>
 
     <footer>
