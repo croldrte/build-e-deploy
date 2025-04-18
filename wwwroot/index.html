@@ -21,113 +21,117 @@
 
 <body>
 
-    <header>
-        <!-- Barra de Menu - Cima -->
-        <nav class="navbar navbar-expand-md navbar-top py-4">
-            <div class="container">
-                <!-- Menu Hambúrguer -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23FF3600' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"
-                            alt="Menu">
-                    </span>
-                </button>
-                <!-- Logo -->
-                <a class="navbar-brand" href="index.html">Build & Deploy</a>
-                <!-- Ícones - Login, Lista de Desejos, Sacola de Compras -->
-                <div class="d-flex order-2 order-md-3">
-                    <a href="#" class="me-2">
-                        <i class="bi bi-person text-orange" style="font-size: 1.5rem;"></i>
-                    </a>
-                    <a href="#" class="mx-2">
-                        <i class="bi bi-heart text-orange" style="font-size: 1.5rem;"></i>
-                    </a>
-                    <a href="#" class="ms-2">
-                        <i class="bi bi-cart text-orange" style="font-size: 1.5rem;"></i>
-                    </a>
-                </div>
-                <!-- Barra de Pesquisa -->
-                <form class="d-flex flex-grow-1 mx-md-5 d-md-flex d-block order-3 order-md-2" role="search">
-                    <div class="input-group">
-                        <input class="form-control border-orange px-3 py-2" type="search"
-                            placeholder="O que você está procurando?" aria-label="Search">
-                        <button class="btn border-orange border-left-0 px-3" type="submit">
-                            <i class="bi bi-search text-orange"></i>
-                        </button>
+    <header>        
+        <!-- Barra de Menu - Cima -->        
+            <nav class="navbar navbar-top navbar-expand-md bg-white py-4">
+                <div class="container">
+                    <!-- Menu Hambúrguer -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23FF3600' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"
+                                alt="Menu">
+                        </span>
+                    </button>
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="index.html">Build & Deploy</a>
+                    <!-- Ícones - Login, Lista de Desejos, Sacola de Compras -->
+                    <div class="d-flex order-2 order-md-3">
+                        <a href="#" class="me-2">
+                            <i class="bi bi-person text-orange" style="font-size: 1.5rem;"></i>
+                        </a>
+                        <a href="#" class="mx-2">
+                            <i class="bi bi-heart text-orange" style="font-size: 1.5rem;"></i>
+                        </a>
+                        <a href="#" class="ms-2">
+                            <i class="bi bi-cart text-orange" style="font-size: 1.5rem;"></i>
+                        </a>
                     </div>
-                </form>
-            </div>
-        </nav>
-        <!-- Barra de Menu - Baixo -->
-        <nav class="navbar navbar-expand-md navbar-bottom bg-dark-blue py-1">
-            <div class="container">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav d-flex justify-content-between w-100">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="produtos/para-sua-construcao.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Para sua construção</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Cimentos</a></li>
-                                <li><a class="dropdown-item" href="#">Areias</a></li>
-                                <li><a class="dropdown-item" href="#">Tijolos</a></li>
-                                <li><a class="dropdown-item" href="#">Telhas</a></li>
-                                <li><a class="dropdown-item" href="#">Argamassas</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="produtos/para-sua-construcao.html">Ver tudo</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="produtos/materiais-hidraulicos.html">Materiais
-                                hidráulicos</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle mx-2" href="produtos/materiais-eletricos.html"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Materiais elétricos</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Fios</a></li>
-                                <li><a class="dropdown-item" href="#">Cabos</a></li>
-                                <li><a class="dropdown-item" href="#">Interruptores</a></li>
-                                <li><a class="dropdown-item" href="#">Tomadas</a></li>
-                                <li><a class="dropdown-item" href="#">Tubos</a></li>
-                                <li><a class="dropdown-item" href="#">Eletrodutos</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="produtos/materiais-eletricos.html">Ver tudo</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="produtos/tintas.html">Tintas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="produtos/vernizes.html">Vernizes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="produtos/esmaltes.html">Esmaltes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="produtos/ferramentas.html">Ferramentas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="produtos/pisos-e-revestimentos.html">Pisos e
-                                revestimentos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="produtos/metais.html">Metais</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="produtos/portas.html">Portas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="produtos/janelas.html">Janelas</a>
-                        </li>
-                    </ul>
+                    <!-- Barra de Pesquisa -->
+                    <form class="d-flex flex-grow-1 mx-md-5 d-md-flex d-block order-3 order-md-2" role="search">
+                        <div class="input-group">
+                            <input class="form-control border-orange px-3 py-2" type="search"
+                                placeholder="O que você está procurando?" aria-label="Search">
+                            <button class="btn border-orange border-left-0 px-3" type="submit">
+                                <i class="bi bi-search text-orange"></i>
+                            </button>
+                        </div>
+                    </form>
                 </div>
-            </div>
-        </nav>
+            </nav>
+            <!-- Barra de Menu - Baixo -->
+            <nav class="navbar navbar-top navbar-expand-md bg-dark-blue py-1" id="header-navbar-bottom">
+                <div class="container">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav d-flex justify-content-between w-100">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="produtos/para-sua-construcao.html"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">Para sua
+                                    construção</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Cimentos</a></li>
+                                    <li><a class="dropdown-item" href="#">Areias</a></li>
+                                    <li><a class="dropdown-item" href="#">Tijolos</a></li>
+                                    <li><a class="dropdown-item" href="#">Telhas</a></li>
+                                    <li><a class="dropdown-item" href="#">Argamassas</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="produtos/para-sua-construcao.html">Ver tudo</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="produtos/materiais-hidraulicos.html">Materiais
+                                    hidráulicos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle mx-2" href="produtos/materiais-eletricos.html"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">Materiais
+                                    elétricos</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Fios</a></li>
+                                    <li><a class="dropdown-item" href="#">Cabos</a></li>
+                                    <li><a class="dropdown-item" href="#">Interruptores</a></li>
+                                    <li><a class="dropdown-item" href="#">Tomadas</a></li>
+                                    <li><a class="dropdown-item" href="#">Tubos</a></li>
+                                    <li><a class="dropdown-item" href="#">Eletrodutos</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="produtos/materiais-eletricos.html">Ver tudo</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="produtos/tintas.html">Tintas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="produtos/vernizes.html">Vernizes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="produtos/esmaltes.html">Esmaltes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="produtos/ferramentas.html">Ferramentas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="produtos/pisos-e-revestimentos.html">Pisos e
+                                    revestimentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="produtos/metais.html">Metais</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="produtos/portas.html">Portas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="produtos/janelas.html">Janelas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
     </header>
 
     <main>
@@ -448,7 +452,7 @@
 
     </main>
 
-    <footer class="bg-dark-blue text-white pt-5">
+    <footer class="navbar-bottom bg-dark-blue text-white py-5">
         <div class="container">
             <div class="row">
                 <!-- Logo -->

@@ -37,7 +37,7 @@ a {
     color: var(--dark-blue);
 }
 
-.navbar-bottom, footer, footer h6 {
+#header-navbar-bottom, .navbar-bottom, .navbar-bottom h6 {
     font-size: 12px;  
 }
 
