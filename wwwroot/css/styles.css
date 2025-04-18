@@ -8,6 +8,11 @@ body {
     color: var(--dark-blue);
 }
 
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
 .bg-orange {
     background-color: var(--orange);
 }
@@ -32,7 +37,7 @@ body {
     color: var(--dark-blue);
 }
 
-.navbar-bottom {
+.navbar-bottom, footer, footer h6 {
     font-size: 12px;  
 }
 
@@ -102,7 +107,7 @@ body {
     object-fit: contain;
     background-color: whitesmoke;
     border-radius: 5px;
-    padding: 15px;
+    padding: 20px;
 }
 
 h2 {
@@ -114,15 +119,21 @@ h2 {
     font-size: 12px;
 }
 
-.product a {
-    text-decoration: none;
-}
-
-.product-name {
+.product-name, footer h6 {
     font-weight: 600;
 }
 
 .product b {
     font-size: 150%;
     color: var(--orange);
+}
+
+.payment-logo {
+    width: auto;
+    height: 25px;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    padding: 5px;
+    display: inline-block;
+    object-fit: contain;
 }
