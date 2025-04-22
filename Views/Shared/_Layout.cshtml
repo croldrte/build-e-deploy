@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewData["Title"]</title>
+    <title>@ViewData["Title"] | Build & Deploy: Tudo para a sua obra</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
@@ -16,123 +16,123 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap"
         rel="stylesheet">
-        <!-- CSS Local -->
+    <!-- CSS Local -->
     <link rel="stylesheet" href="~/css/style.css">
 </head>
 
 <body>
 
-    <header>        
-        <!-- Barra de Menu - Cima -->        
-            <nav class="navbar navbar-top navbar-expand-md bg-white py-4">
-                <div class="container">
-                    <!-- Menu Hambúrguer -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon">
-                            <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23FF3600' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"
-                                alt="Menu">
-                        </span>
-                    </button>
-                    <!-- Logo -->
-                    <a class="navbar-brand" href="/">Build & Deploy</a>
-                    <!-- Ícones - Login, Lista de Desejos, Sacola de Compras -->
-                    <div class="d-flex order-2 order-md-3">
-                        <a href="#" class="me-2">
-                            <i class="bi bi-person text-orange" style="font-size: 1.5rem;"></i>
-                        </a>
-                        <a href="#" class="mx-2">
-                            <i class="bi bi-heart text-orange" style="font-size: 1.5rem;"></i>
-                        </a>
-                        <a href="#" class="ms-2">
-                            <i class="bi bi-cart text-orange" style="font-size: 1.5rem;"></i>
-                        </a>
-                    </div>
-                    <!-- Barra de Pesquisa -->
-                    <form class="d-flex flex-grow-1 mx-md-5 d-md-flex d-block order-3 order-md-2" role="search">
-                        <div class="input-group">
-                            <input class="form-control border-orange px-3 py-2" type="search"
-                                placeholder="O que você está procurando?" aria-label="Search">
-                            <button class="btn border-orange border-left-0 px-3" type="submit">
-                                <i class="bi bi-search text-orange"></i>
-                            </button>
-                        </div>
-                    </form>
+    <header>
+        <!-- Barra de Menu - Cima -->
+        <nav class="navbar navbar-top navbar-expand-md bg-white py-4">
+            <div class="container">
+                <!-- Menu Hambúrguer -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23FF3600' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"
+                            alt="Menu">
+                    </span>
+                </button>
+                <!-- Logo -->
+                <a class="navbar-brand" href="/">Build & Deploy</a>
+                <!-- Ícones - Login, Lista de Desejos, Sacola de Compras -->
+                <div class="d-flex order-2 order-md-3">
+                    <a href="#" class="me-2">
+                        <i class="bi bi-person text-orange" style="font-size: 1.5rem;"></i>
+                    </a>
+                    <a href="#" class="mx-2">
+                        <i class="bi bi-heart text-orange" style="font-size: 1.5rem;"></i>
+                    </a>
+                    <a href="#" class="ms-2">
+                        <i class="bi bi-cart text-orange" style="font-size: 1.5rem;"></i>
+                    </a>
                 </div>
-            </nav>
-            <!-- Barra de Menu - Baixo -->
-            <nav class="navbar navbar-top navbar-expand-md bg-dark-blue py-1" id="header-navbar-bottom">
-                <div class="container">
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav d-flex justify-content-between w-100">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="/produtos/para-sua-construcao"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">Para sua
-                                    construção</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Cimentos</a></li>
-                                    <li><a class="dropdown-item" href="#">Areias</a></li>
-                                    <li><a class="dropdown-item" href="#">Tijolos</a></li>
-                                    <li><a class="dropdown-item" href="#">Telhas</a></li>
-                                    <li><a class="dropdown-item" href="#">Argamassas</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="/produtos/para-sua-construcao">Ver tudo</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-2" href="/produtos/materiais-hidraulicos">Materiais
-                                    hidráulicos</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle mx-2" href="/produtos/materiais-eletricos"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">Materiais
-                                    elétricos</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Fios</a></li>
-                                    <li><a class="dropdown-item" href="#">Cabos</a></li>
-                                    <li><a class="dropdown-item" href="#">Interruptores</a></li>
-                                    <li><a class="dropdown-item" href="#">Tomadas</a></li>
-                                    <li><a class="dropdown-item" href="#">Tubos</a></li>
-                                    <li><a class="dropdown-item" href="#">Eletrodutos</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="/produtos/materiais-eletricos">Ver tudo</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-2" href="/produtos/tintas">Tintas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-2" href="/produtos/vernizes">Vernizes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-2" href="/produtos/esmaltes">Esmaltes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-2" href="/produtos/ferramentas">Ferramentas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-2" href="/produtos/pisos-e-revestimentos">Pisos e
-                                    revestimentos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-2" href="/produtos/metais">Metais</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-2" href="/produtos/portas">Portas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/produtos/janelas">Janelas</a>
-                            </li>
-                        </ul>
+                <!-- Barra de Pesquisa -->
+                <form class="d-flex flex-grow-1 mx-md-5 d-md-flex d-block order-3 order-md-2" role="search">
+                    <div class="input-group">
+                        <input class="form-control border-orange px-3 py-2" type="search"
+                            placeholder="O que você está procurando?" aria-label="Search">
+                        <button class="btn border-orange border-left-0 px-3" type="submit">
+                            <i class="bi bi-search text-orange"></i>
+                        </button>
                     </div>
+                </form>
+            </div>
+        </nav>
+        <!-- Barra de Menu - Baixo -->
+        <nav class="navbar navbar-top navbar-expand-md bg-dark-blue py-1" id="header-navbar-bottom">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-between w-100">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/produtos/para-sua-construcao" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Para sua
+                                construção</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cimentos</a></li>
+                                <li><a class="dropdown-item" href="#">Areias</a></li>
+                                <li><a class="dropdown-item" href="#">Tijolos</a></li>
+                                <li><a class="dropdown-item" href="#">Telhas</a></li>
+                                <li><a class="dropdown-item" href="#">Argamassas</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/produtos/para-sua-construcao">Ver tudo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="/produtos/materiais-hidraulicos">Materiais
+                                hidráulicos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle mx-2" href="/produtos/materiais-eletricos" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Materiais
+                                elétricos</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Fios</a></li>
+                                <li><a class="dropdown-item" href="#">Cabos</a></li>
+                                <li><a class="dropdown-item" href="#">Interruptores</a></li>
+                                <li><a class="dropdown-item" href="#">Tomadas</a></li>
+                                <li><a class="dropdown-item" href="#">Tubos</a></li>
+                                <li><a class="dropdown-item" href="#">Eletrodutos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/produtos/materiais-eletricos">Ver tudo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="/produtos/tintas">Tintas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="/produtos/vernizes">Vernizes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="/produtos/esmaltes">Esmaltes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="/produtos/ferramentas">Ferramentas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="/produtos/pisos-e-revestimentos">Pisos e
+                                revestimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="/produtos/metais">Metais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="/produtos/portas">Portas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/produtos/janelas">Janelas</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
     </header>
 
     <main>
@@ -185,31 +185,33 @@
                     <h6>Institucional</h6>
                     <ul class="list-unstyled">
                         <li><a href="/nossa-historia">Nossa História</a></li>
+                        <li><a href="#">Nossas Lojas</a></li>
                         <li><a href="/carreiras">Carreiras</a></li>
-                        <li><a href="/contato">Contato</a></li>
+                        <li><a href="#">Responsabilidade Social</a></li>
                     </ul>
                 </div>
                 <!-- Informações de Contato -->
                 <div class="col-lg-2">
-                    <h6>Contato</h6>
+                    <h6>Ajuda</h6>
                     <ul class="list-unstyled">
                         <li><a href="#">Frete e Entrega</a></li>
                         <li><a href="#">Trocas e Devoluções</a></li>
-                        <li><a href="#">Cupons de Desconto</a></li>
                         <li><a href="#">Política de Privacidade</a></li>
-                        <li><a href="#">Privacidade e Segurança</a></li>
+                        <li><a href="/contato">Contato</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
 
-<!-- Bootstrap -->
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
-        <!-- JS Local -->
-    <script src="~/js/script.js"></script>    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c1eea3cf57.js" crossorigin="anonymous"></script>
+    <!-- JS Local -->
+    <script src="~/js/script.js"></script>
 
 </body>
 

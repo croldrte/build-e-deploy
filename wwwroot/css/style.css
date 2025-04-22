@@ -18,7 +18,21 @@ a {
 }
 
 .border-orange {
+    border-color: var(--orange) !important;
+}
+
+.btn-orange {
     border-color: var(--orange);
+    background-color: var(--orange);
+    color: white;
+    border-radius: 0;
+}
+
+.btn-orange:hover {
+    border-color: #BF2900;
+    background-color: #BF2900;
+    color: white;
+    border-radius: 0;
 }
 
 .text-orange {
@@ -37,7 +51,11 @@ a {
     color: var(--dark-blue);
 }
 
-#header-navbar-bottom, .navbar-bottom, .navbar-bottom h6 {
+.bg-whitesmoke {
+    background-color: whitesmoke;
+}
+
+#header-navbar-bottom, .navbar-bottom, .navbar-bottom h6, #sidebar {
     font-size: 12px;  
 }
 
@@ -72,7 +90,8 @@ a {
     background-color: var(--orange);
 }
 
-#benefits p b {
+#home-benefits p b, #careers-benefits b {
+    font-weight: 600;
     color: var(--orange);
 }
 
@@ -136,4 +155,42 @@ h2 {
     padding: 5px;
     display: inline-block;
     object-fit: contain;
+}
+
+.sidebar-item {
+    padding: 14px;
+}
+
+.sidebar-item:hover {
+    color: var(--orange);
+    font-weight: 500;
+}
+
+.sidebar-item-active {
+    border-left: 3px solid var(--orange);
+    color: var(--orange);
+    font-weight: 500;
+    padding: 10px;
+}
+
+.head-banner {
+    height: 200px;
+    overflow: hidden;
+    width: auto;
+    border-radius: var(--bs-border-radius);
+}
+
+.head-banner img {  
+    height: 100%;
+    width: 100%;  
+    object-fit: cover;
+    object-position: center;
+}
+
+select:has(option:disabled:checked) {
+    color: var(--bs-secondary-color);
+}
+
+select option {
+    color: var(--bs-body-color);
 }
