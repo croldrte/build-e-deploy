@@ -19,7 +19,8 @@ namespace CasaMateriaisDeConstrucao.Controllers
         [Route("materiais-hidraulicos")]
         public IActionResult MateriaisHidraulicos()
         {
-            return View("MateriaisHidraulicos");
+            var produtos = _context.Produtos.Where(p => p.Categoria == "Materiais Hidráulicos").ToList();
+            return View(produtos);
         }
 
         [Route("materiais-eletricos")]
