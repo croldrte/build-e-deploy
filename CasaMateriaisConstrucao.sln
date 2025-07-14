@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasaMateriaisDeConstrucao", "CasaMateriaisDeConstrucao.csproj", "{1DF7E734-BA6A-05F1-6BF8-244E1EEECD39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasaMateriaisConstrucao", "CasaMateriaisConstrucao.csproj", "{922E2D57-F7CF-3730-C48C-1664B4C4A974}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1DF7E734-BA6A-05F1-6BF8-244E1EEECD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DF7E734-BA6A-05F1-6BF8-244E1EEECD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DF7E734-BA6A-05F1-6BF8-244E1EEECD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DF7E734-BA6A-05F1-6BF8-244E1EEECD39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{922E2D57-F7CF-3730-C48C-1664B4C4A974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922E2D57-F7CF-3730-C48C-1664B4C4A974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922E2D57-F7CF-3730-C48C-1664B4C4A974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922E2D57-F7CF-3730-C48C-1664B4C4A974}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5F6EC983-6D08-459B-8B15-ED5B527BF391}
+		SolutionGuid = {1E22C12B-0C9A-4476-A195-57F8F89A5E3D}
 	EndGlobalSection
 EndGlobal
