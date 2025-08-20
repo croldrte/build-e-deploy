@@ -1,0 +1,65 @@
+@{
+    ViewData["Title"] = "Contato";
+}
+
+<div class="container my-5">
+    <div class="row">
+        <div id="sidebar" class="col-3">
+            <h6 class="mb-3">Institucional</h6>
+            <ul class="list-unstyled">
+                <li class="py-1 sidebar-item"><a href="/nossa-historia">Nossa História</a></li>
+                <li class="py-1 sidebar-item"><a href="#">Nossas Lojas</a></li>
+                <li class="py-1 sidebar-item"><a href="/carreiras">Carreiras</a></li>
+                <li class="py-1 sidebar-item"><a href="#">Responsabilidade Social</a></li>
+            </ul>
+            <h6 class="mb-3">Ajuda</h6>
+            <ul class="list-unstyled">
+                <li class="py-1 sidebar-item"><a href="#">Frete e Entrega</a></li>
+                <li class="py-1 sidebar-item"><a href="#">Trocas e Devoluções</a></li>
+                <li class="py-1 sidebar-item"><a href="#">Política de Privacidade</a></li>
+                <li class="py-1 sidebar-item-active"><a href="/contato">Contato</a></li>
+            </ul>
+        </div>
+        <div class="col-9">
+            <div class="head-banner mb-4">
+                <img src="https://images.unsplash.com/photo-1717657742204-8012a76b84bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+            </div>
+            <h2 class="pb-4">Contato</h2>
+            <p class="pb-2">Tire suas dúvidas sobre cadastro, orçamentos, envio de lista e outros. Entre em contato com a Central de
+                Atendimento!</p>
+            <form>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="nome" placeholder="Nome">
+            </div>
+
+            <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+
+            <div class="mb-3">
+                <input type="tel" class="form-control" id="telefone" placeholder="Telefone">
+            </div>
+
+            <div class="mb-3">
+                <select class="form-select" id="assunto">
+                    <option selected disabled>Assunto</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="informacao">Informação</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="solicitacao">Solicitação</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <textarea class="form-control" id="mensagem" rows="5"
+                    placeholder="Mensagem"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-orange">Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
